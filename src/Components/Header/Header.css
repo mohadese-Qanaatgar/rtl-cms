@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+.admin-profile {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.admin-profile__img {
+  width: 5rem;
+  border-radius: 50%;
+  height: 5rem;
+  object-fit: cover;
+}
+.admin-profile__information {
+  text-align: right;
+}
+.admin-profile__name {
+  font-size: 1.2rem;
+}
+.admin-profile__role {
+  color: #546e7a;
+}
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.4rem;
+}
+.search-box {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 19rem;
+  height: 3rem;
+  border-radius: 1rem;
+  padding: 1rem 1rem 1rem 0.4rem;
+}
+.search-box__input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 0.6rem 0.6rem 0.6rem 1.4rem;
+}
+.search-box__btn {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  color: var(--white);
+  background-color: var(--purple);
+  border-radius: 1rem;
+  font-size: 1.1rem;
+}
+.header-left__icon {
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  background-color: var(--purple);
+  border: none;
+  border-radius: 1rem;
+}

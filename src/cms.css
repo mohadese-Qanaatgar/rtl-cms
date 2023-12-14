@@ -1,0 +1,41 @@
+.modal-parent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-parent.active {
+  opacity: 1;
+  visibility: visible;
+}
+.cms-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.cms-main {
+  margin-top: 3.8rem;
+  padding: 1.4rem;
+  border-radius: 1.6rem;
+}
+.cms-table {
+  background-color: var(--white);
+  width: 100%;
+  margin-top: 1.4rem;
+  border-radius: 0.6rem;
+}
+.cms-table th,
+.cms-table td {
+  padding: 1.4rem;
+}
+.cms-table-tr {
+  text-align: center;
+}

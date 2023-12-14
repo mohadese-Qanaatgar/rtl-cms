@@ -1,0 +1,25 @@
+.discription-btn {
+  border: none;
+  color: var(--white);
+  background-color: var(--purple);
+  border-radius: 0.6rem;
+  padding: 0.6rem 1rem;
+}
+.comment-btn {
+  margin-right: 0.2rem;
+  border: none;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.6rem;
+  color: var(--white);
+  background-color: var(--purple);
+}
+.text-modal-close-btn {
+  border: none;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.6rem;
+  color: var(--white);
+  background-color: var(--purple);
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,61 @@
+.products-table {
+  margin: 1rem 0;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 1.4rem;
+}
+.table {
+  margin-top: 1rem;
+}
+.table th {
+  padding: 1.3rem;
+}
+.table td {
+  padding: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+.table-heading-tr {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem 0 16rem;
+}
+.table-data-tr {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem 0 1rem;
+}
+.product-table-img {
+  width: 10rem;
+  border-radius: 0.6rem;
+  object-fit: cover;
+}
+.product-table-btn {
+  padding: 0.5rem 1.4rem;
+  margin-right: 1.4rem;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 0.6rem;
+  color: var(--white);
+  background-color: var(--purple);
+}
+/* children EditModal*/
+.edit-products-form-group {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.4rem;
+  border-radius: 0.6rem;
+}
+.edit-products-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+}

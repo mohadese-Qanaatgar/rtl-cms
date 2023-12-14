@@ -1,0 +1,27 @@
+.delete-modal {
+  padding: 3rem;
+  background-color: var(--white);
+  text-align: center;
+}
+.delete-modal-title {
+  font-size: 2rem;
+}
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.modal-btn {
+  padding: 1rem 2rem;
+  border: none;
+  border: 0.1rem solid rgb(146, 145, 145);
+  border-radius: 0.6rem;
+}
+.accept-btn {
+  background-color: var(--purple);
+  color: var(--white);
+}
+.reject-btn {
+}

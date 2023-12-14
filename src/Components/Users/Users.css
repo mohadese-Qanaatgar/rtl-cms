@@ -1,0 +1,23 @@
+.users-btn {
+  margin-right: 0.2rem;
+  border: none;
+  padding: 0.6rem 0.7rem;
+  border-radius: 0.6rem;
+  color: var(--white);
+  background-color: var(--purple);
+}
+.edit-user-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.6rem;
+  padding: 0 1.4rem;
+  background-color: #f4f4f4;
+}
+.edit-user-info {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}

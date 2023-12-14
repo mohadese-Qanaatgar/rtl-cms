@@ -1,0 +1,26 @@
+@import './reset.css';
+
+@font-face {
+  font-family: Lalezar;
+  src: url(./fonts/Lalezar-Regular.ttf);
+}
+
+:root {
+  --white: #ffffff;
+  --white-50: #f0f0f0;
+  --purple: #7e57c2;
+}
+
+body {
+  background-color: var(--white-50);
+  display: flex;
+  direction: rtl;
+}
+/* .container {
+  display: flex;
+} */
+*,
+body,
+html {
+  font-family: Lalezar;
+}
